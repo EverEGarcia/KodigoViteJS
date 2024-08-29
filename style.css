@@ -48,7 +48,25 @@ body {
 }
 
 .card-species,
-.card-status {
+.card-status,
+.card-type,
+.card-dimension,
+.card-residents,
+.card-episode,
+.card-air-date {
   font-size: 1rem;
   color: #666;
+}
+
+/* Estilos para el estado de los personajes */
+.status-alive {
+  color: green;
+}
+
+.status-dead {
+  color: red;
+}
+
+.status-unknown {
+  color: blue;
 }
